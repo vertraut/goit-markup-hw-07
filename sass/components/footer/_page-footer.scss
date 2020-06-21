@@ -1,7 +1,8 @@
 /* footer */
 .footer {
   background-color: #2f303a;
-  padding-top: 48px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .flex.container {
@@ -12,6 +13,10 @@
 /* блок div с адресом и контактами */
 .footer .address {
   margin-right: auto;
+}
+
+.address ul {
+  @extend %list;
 }
 
 .footer .address li:not(:last-child) {
@@ -47,6 +52,7 @@
 }
 
 .footer-social-list {
+  @extend %list;
   display: flex;
 }
 
@@ -61,7 +67,7 @@
   margin-right: 10px;
 }
 
-.footer-social-list a{
+.footer-social-list a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +79,7 @@
   text-decoration: none;
 
   &:hover,
-  &:focus{
+  &:focus {
     color: $light-color;
     background-color: $accent-color;
     text-decoration: none;

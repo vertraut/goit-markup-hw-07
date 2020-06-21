@@ -1,5 +1,6 @@
 /* Формирование сетки */
 .portfolio .examples {
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 }

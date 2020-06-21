@@ -3,6 +3,7 @@
 /* Кнопки фильтра */
 
 .portfolio .filter {
+  @extend %list;
   display: flex;
   margin-left: auto;
   margin-right: auto;

@@ -10,6 +10,7 @@
 }
 
 .header-nav > ul {
+  @extend %list;
   display: flex;
 }
 
