@@ -110,26 +110,26 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $primery-text-color;
-}
 
-.policy label::before {
-  content: '';
-  display: block;
-  margin-right: 8px;
-  width: 15px;
-  height: 15px;
-  border: 2px solid $dark-color;
-  background-image: url(./../images/icon_check.svg);
-  background-color: $light-bg-color;
-  border-radius: 2px;
-  background-size: contain;
-  background-origin: border-box;
-  transition: background-color $transition-duration $cubic, border-color $transition-duration $cubic;
+  &::before {
+    content: '';
+    display: block;
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid $dark-color;
+    background-image: url(./../images/icon_check.svg);
+    background-color: $light-bg-color;
+    border-radius: 2px;
+    background-size: contain;
+    background-origin: border-box;
+    transition: background-color $transition-duration $cubic,
+      border-color $transition-duration $cubic;
+  }
 }
 
 .policy input:checked + label::before {
   border: 2px solid $accent-color;
-  /* border-color: inherit; */
   background-color: $accent-color;
 }
 

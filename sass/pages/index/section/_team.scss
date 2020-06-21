@@ -35,7 +35,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
+
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
@@ -49,7 +49,7 @@
   /* position */
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
+
   text-align: center;
   margin-top: 0;
   margin-bottom: 16px;
@@ -68,7 +68,12 @@
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
-  /* padding: 12px; */
+
+  &:hover,
+  &:focus {
+    color: $light-color;
+    background-color: $accent-color;
+  }
 }
 
 .team-item .social-icon {
@@ -80,10 +85,4 @@
 
 .team-social-list li:not(:last-child) {
   margin-right: 10px;
-}
-
-.team-item a:hover,
-.team-item a:focus {
-  color: $light-color;
-  background-color: $accent-color;
 }

@@ -61,7 +61,7 @@
   margin-right: 10px;
 }
 
-.footer-social-list a {
+.footer-social-list a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,13 +71,13 @@
   color: $light-color;
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
-}
 
-.footer-social-list a:hover,
-.footer-social-list a:focus {
-  color: $light-color;
-  background-color: $accent-color;
-  text-decoration: none;
+  &:hover,
+  &:focus{
+    color: $light-color;
+    background-color: $accent-color;
+    text-decoration: none;
+  }
 }
 
 /* Копирайт */

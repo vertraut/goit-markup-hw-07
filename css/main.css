@@ -72,8 +72,7 @@ img {
   background-color: #2196f3;
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #188ce8;
 }
 
@@ -87,7 +86,7 @@ img {
   padding-bottom: 0;
 }
 
-.section.no-padding-top {
+.section.no-padding.no-padding-top {
   padding-top: 0px;
 }
 
@@ -129,8 +128,6 @@ img {
 }
 
 .header .logo {
-  /* padding-top: 0px;
-  padding-bottom: 0px; */
   margin-right: 80px;
 }
 
@@ -321,10 +318,6 @@ img {
 }
 
 /* services */
-.services {
-  /* background-color: #757575; */
-}
-
 .services-item {
   width: 370px;
   position: relative;
@@ -386,7 +379,7 @@ img {
   border-radius: 4px;
 }
 
-.clients_item a:hover {
+.clients_item a:hover, .clients_item a:focus {
   color: #2196f3;
 }
 
@@ -452,7 +445,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
@@ -466,7 +458,6 @@ img {
   /* position */
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   margin-top: 0;
   margin-bottom: 16px;
@@ -495,7 +486,11 @@ img {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
-  /* padding: 12px; */
+}
+
+.team-item a:hover, .team-item a:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .team-item .social-icon {
@@ -507,12 +502,6 @@ img {
 
 .team-social-list li:not(:last-child) {
   margin-right: 10px;
-}
-
-.team-item a:hover,
-.team-item a:focus {
-  color: #ffffff;
-  background-color: #2196f3;
 }
 
 /* Модальное окно */
@@ -712,7 +701,6 @@ img {
 
 .policy input:checked + label::before {
   border: 2px solid #2196f3;
-  /* border-color: inherit; */
   background-color: #2196f3;
 }
 
@@ -837,8 +825,7 @@ img {
   text-decoration: none;
 }
 
-.footer-social-list a:hover,
-.footer-social-list a:focus {
+.footer-social-list a:hover, .footer-social-list a:focus {
   color: #ffffff;
   background-color: #2196f3;
   text-decoration: none;

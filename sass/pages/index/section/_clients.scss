@@ -9,10 +9,11 @@
   height: 90px;
   border: 1px solid currentColor;
   border-radius: 4px;
-}
 
-.clients_item a:hover {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .client-icon {
