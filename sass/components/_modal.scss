@@ -49,6 +49,7 @@
   fill: #000000;
   width: 11px;
   height: 11px;
+  transition: fill $transition-duration $cubic;
 }
 
 .btn-close:hover .icon-close,
